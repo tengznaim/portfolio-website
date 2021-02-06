@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Logo from "./components/Logo/Logo";
+import Sidebar from "./components/Sidebar/Sidebar";
+import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/Hero/Hero";
+import About from "./components/About/About";
 
 function App() {
+  const [isOpen, setOpen] = useState(false);
+  function handleClick() {
+    setOpen(!isOpen);
+    console.log(isOpen);
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Sidebar isOpen={isOpen} handleClick={handleClick} />
+      <Logo />
+      <Navbar handleClick={handleClick} />
+      <Hero />
+      <About />
     </div>
   );
 }
