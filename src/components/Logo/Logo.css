@@ -1,17 +1,16 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 .logo-container {
   height: 10vh;
   display: flex;
-  background-color: #2e2e2e;
+  background-color: var(--bg-dark);
   align-items: center;
   justify-content: center;
 }
 
 .logo-item {
   height: 70%;
+}
+
+.logo-item path,
+.logo-item polygon {
+  fill: #f5f7fb;
 }

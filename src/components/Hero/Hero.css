@@ -1,13 +1,6 @@
-* {
-  font-family: "Raleway", sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .home-container {
   height: 80vh;
-  background-color: #2e2e2e;
+  background-color: var(--bg-dark);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,7 +13,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #f0f0f0;
+  color: var(--light-gray);
 }
 
 .home-content {
@@ -34,7 +27,7 @@
 
 #home-name {
   font-size: 4rem;
-  color: #ffcc6f;
+  color: var(--yellow);
 }
 
 #home-text {
@@ -42,15 +35,15 @@
 }
 
 #home-highlighted {
-  color: #ffcc6f;
+  color: var(--yellow);
 }
 
 #home-btn {
   background: none;
-  color: #ffcc6f;
+  color: var(--yellow);
   font-size: 2rem;
   padding: 20px;
-  border: 2px solid #ffcc6f;
+  border: 2px solid var(--yellow);
   border-radius: 20px;
   cursor: pointer;
   transition: all 0.5s ease;
@@ -61,8 +54,8 @@
 }
 
 #home-btn:hover {
-  color: #2e2e2e;
-  background: #ffcc6f;
+  color: var(--bg-dark);
+  background: var(--yellow);
 }
 
 @media screen and (max-width: 768px) {
@@ -72,7 +65,7 @@
 
   #home-name {
     font-size: 3rem;
-    color: #ffcc6f;
+    color: var(--yellow);
   }
 
   #home-text {
@@ -81,10 +74,10 @@
 
   #home-btn {
     background: none;
-    color: #ffcc6f;
+    color: var(--yellow);
     font-size: 1.5rem;
     padding: 20px;
-    border: 2px solid #ffcc6f;
+    border: 2px solid var(--yellow);
     border-radius: 20px;
     cursor: pointer;
     transition: all 0.5s ease;

@@ -1,0 +1,13 @@
+:root {
+  --bg-dark: #2e2e2e;
+  --light-gray: #f0f0f0;
+  --yellow: #ffcc6f;
+  --turquoise: #03d9d9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}

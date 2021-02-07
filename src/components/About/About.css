@@ -1,18 +1,11 @@
-* {
-  font-family: "Raleway", sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .about-container {
   height: 100vh;
-  background-color: #2e2e2e;
+  background-color: var(--bg-dark);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .test {
-  color: #f0f0f0;
+  color: var(--light-gray);
 }
