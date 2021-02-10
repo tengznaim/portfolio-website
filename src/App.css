@@ -1,8 +1,9 @@
 :root {
-  --bg-dark: #2e2e2e;
-  --light-gray: #f0f0f0;
-  --yellow: #ffcc6f;
-  --turquoise: #03d9d9;
+  --dark-accent: #181818;
+  --bg: #1f1f1f;
+  --light-gray: #f5f7fb;
+  --red-pink: #f76d6b;
+  --yellow: #fed095;
 }
 
 * {

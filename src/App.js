@@ -5,19 +5,21 @@ import Sidebar from "./components/Sidebar/Sidebar";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
+import SidebarProto from "./components/SidebarProto/SidebarProto";
 
 function App() {
-  const [isOpen, setOpen] = useState(false);
+  const [isOpen, setOpen] = useState(true);
   function handleClick() {
     setOpen(!isOpen);
     console.log(isOpen);
   }
   return (
     <div>
-      <Sidebar isOpen={isOpen} handleClick={handleClick} />
+      {/* <Sidebar isOpen={isOpen} handleClick={handleClick} /> */}
       <Logo />
-      <Navbar handleClick={handleClick} />
+      {/* <Navbar handleClick={handleClick} /> */}
       <Hero />
+      <SidebarProto isOpen={isOpen} handleClick={handleClick} />
       <About />
     </div>
   );

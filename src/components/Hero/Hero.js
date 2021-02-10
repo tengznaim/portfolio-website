@@ -1,27 +1,25 @@
 import React from "react";
 import { Link as LinkScroll } from "react-scroll";
+import { FaChevronDown } from "react-icons/fa";
 import "./Hero.css";
 
 function Hero() {
   return (
-    <div className="home-container">
+    <div className="home-container" id="home">
+      <h1 className="home-greeting">Hello</h1>
       <div className="home-content-container">
-        <p className="home-content" id="home-title">
-          Hi! I'm
-        </p>
-        <h1 className="home-content" id="home-name">
-          Tengku Naim
-        </h1>
-        <p className="home-content" id="home-text">
+        <p id="home-first-line">I'm</p>
+        <h1 id="home-second-line">Tengku Naim</h1>
+        <p id="home-third-line">
           a <span id="home-highlighted">computer science</span> sophomore at
           <span id="home-highlighted"> University of Malaya</span>
         </p>
-        <LinkScroll to="about" smooth={true} duration={1000}>
-          <button className="home-content" id="home-btn">
-            Get to know me!
-          </button>
-        </LinkScroll>
       </div>
+      <LinkScroll to="about" smooth={true} duration={1000}>
+        <button className="home-continue-button">
+          <FaChevronDown />
+        </button>
+      </LinkScroll>
     </div>
   );
 }

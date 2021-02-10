@@ -1,6 +1,6 @@
 .about-container {
   height: 100vh;
-  background-color: var(--bg-dark);
+  background-color: var(--bg);
   display: flex;
   align-items: center;
   justify-content: center;

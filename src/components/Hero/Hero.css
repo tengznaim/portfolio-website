@@ -1,61 +1,68 @@
 .home-container {
-  height: 80vh;
-  background-color: var(--bg-dark);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 100vh;
+  background-color: var(--bg);
+  position: relative;
 }
 
 .home-content-container {
-  width: 100%;
+  color: var(--red-pink);
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: var(--light-gray);
+  left: 5%;
+  transform: translate(-5%, -50%);
+}
+
+.home-greeting {
+  font-size: 22rem;
+  color: var(--dark-accent);
+  position: relative;
+  top: 50%;
+  transform: translate(0%, -50%);
 }
 
 .home-content {
   margin: 15px;
 }
 
-#home-title {
-  font-weight: bold;
+.home-continue-button {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  width: 75px;
+  height: 75px;
+  transform: translate(-50%, -10%);
+  cursor: pointer;
+  outline: none;
+  background: none;
+  border: 5px solid var(--red-pink);
+  border-radius: 50%;
+  color: var(--red-pink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  transition: all 0.5s ease;
+}
+
+.home-continue-button:hover {
+  background: var(--red-pink);
+  color: var(--bg);
+}
+#home-first-line {
   font-size: 2rem;
 }
 
-#home-name {
+#home-second-line {
   font-size: 4rem;
   color: var(--yellow);
 }
 
-#home-text {
+#home-third-line {
   font-size: 2rem;
 }
 
 #home-highlighted {
   color: var(--yellow);
-}
-
-#home-btn {
-  background: none;
-  color: var(--yellow);
-  font-size: 2rem;
-  padding: 20px;
-  border: 2px solid var(--yellow);
-  border-radius: 20px;
-  cursor: pointer;
-  transition: all 0.5s ease;
-}
-
-#home-btn:focus {
-  outline: none;
-}
-
-#home-btn:hover {
-  color: var(--bg-dark);
-  background: var(--yellow);
 }
 
 @media screen and (max-width: 768px) {

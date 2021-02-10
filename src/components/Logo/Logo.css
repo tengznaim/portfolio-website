@@ -1,16 +1,25 @@
 .logo-container {
-  height: 10vh;
+  height: 80px;
+  width: 100vw;
+  position: fixed;
+  top: 0;
   display: flex;
-  background-color: var(--bg-dark);
+  background-color: var(--dark-accent);
   align-items: center;
   justify-content: center;
+  z-index: 10;
+  transition: all 0.4s ease;
+}
+
+.logo-container.hidden {
+  transform: translateY(-100%);
 }
 
 .logo-item {
-  height: 70%;
+  height: 60%;
 }
 
 .logo-item path,
 .logo-item polygon {
-  fill: #f5f7fb;
+  fill: var(--light-gray);
 }

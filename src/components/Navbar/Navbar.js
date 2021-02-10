@@ -17,7 +17,8 @@ function Navbar(props) {
               className="nav-link"
               smooth={true}
               duration={1000}
-              activeClass="active">
+              spy={true}
+              activeClass="nav-link active">
               Home
             </LinkScroll>
           </li>
@@ -26,7 +27,10 @@ function Navbar(props) {
               to="about"
               className="nav-link"
               smooth={true}
-              duration={1000}>
+              duration={1000}
+              spy={true}
+              offset={-50}
+              activeClass="nav-link active">
               About
             </LinkScroll>
           </li>
