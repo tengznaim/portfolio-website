@@ -1,11 +1,61 @@
 .about-container {
+  position: relative;
   height: 100vh;
   background-color: var(--bg);
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-.test {
+.content-container {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-10%, -50%);
+  width: 60vw;
   color: var(--light-gray);
+}
+
+.about-item {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  user-select: none; /*Prevents Selecting*/
+}
+
+#about-paragraph {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+#contact-button {
+  font-size: 2rem;
+  padding: 20px;
+  border-radius: 20px;
+  background: none;
+  border: 5px solid #fed095;
+  color: #fed095;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  outline: none;
+}
+
+#contact-button:hover {
+  background: #fed095;
+  color: #181818;
+}
+
+#about-tag {
+  color: #f76d6b;
+  font-size: 4rem;
+}
+
+#about-greeting {
+  color: #fed095;
+  font-size: 12rem;
+}
+
+#about-name {
+  color: #fed095;
+  font-size: 4rem;
+}
+
+#about-highlighted {
+  color: #fed095;
 }
