@@ -26,7 +26,6 @@ function SidebarProto(props) {
               smooth={true}
               duration={1000}
               spy={true}
-              offset={-80}
               activeClass="sidebar-item active">
               Home
             </LinkScroll>
@@ -38,7 +37,6 @@ function SidebarProto(props) {
               smooth={true}
               duration={1000}
               spy={true}
-              offset={-80}
               activeClass="sidebar-item active">
               About
             </LinkScroll>
@@ -50,7 +48,6 @@ function SidebarProto(props) {
               smooth={true}
               duration={1000}
               spy={true}
-              offset={-80}
               activeClass="sidebar-item active">
               Skills
             </LinkScroll>

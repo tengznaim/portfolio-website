@@ -1,0 +1,33 @@
+.skills-container {
+  position: relative;
+  height: 100vh;
+  background-color: var(--bg);
+}
+
+.selector-container {
+  display: flex;
+  width: 40vw;
+  justify-content: space-between;
+}
+
+.selector-item {
+  color: #3b3a3a;
+  font-size: 2rem;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.selector-item:hover {
+  color: var(--light-gray);
+}
+
+.selector-item.active {
+  color: var(--yellow);
+}
+
+.data-item {
+  font-size: 2rem;
+  line-height: 3rem;
+  display: flex;
+  align-items: center;
+}

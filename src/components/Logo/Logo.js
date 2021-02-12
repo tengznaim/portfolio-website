@@ -8,6 +8,7 @@ function Logo() {
   const [scrollPos, setScrollPos] = useState(0);
 
   useEffect(() => {
+    console.log(document);
     window.addEventListener("scroll", handleScroll);
 
     function handleScroll() {
