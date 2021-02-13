@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { ReactComponent as LogoSVG } from "../../Personal Logo.svg";
+import { ReactComponent as LogoSVG } from "../../assets/Personal Logo.svg";
 import { Link } from "react-router-dom";
 import "./Logo.css";
 
@@ -28,9 +28,10 @@ function Logo() {
   }, [scrollPos]);
 
   return (
-    <div className={logoVisible ? "logo-container" : "logo-container hidden"}>
+    <header
+      className={logoVisible ? "logo-container" : "logo-container hidden"}>
       <LogoSVG className="logo-item"></LogoSVG>
-    </div>
+    </header>
   );
 }
 

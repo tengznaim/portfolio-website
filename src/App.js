@@ -8,6 +8,8 @@ import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
 import SidebarProto from "./components/SidebarProto/SidebarProto";
 import Skills from "./components/Skills/Skills";
+import Showcase from "./components/Showcase/Showcase";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   const [isOpen, setOpen] = useState(true);
@@ -24,6 +26,8 @@ function App() {
       <SidebarProto isOpen={isOpen} handleClick={handleClick} />
       <About />
       <Skills />
+      <Showcase />
+      <Contact />
     </div>
   );
 }

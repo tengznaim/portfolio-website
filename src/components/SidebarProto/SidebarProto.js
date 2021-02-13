@@ -54,14 +54,13 @@ function SidebarProto(props) {
           </li>
           <li className="sidebar-link">
             <LinkScroll
-              to="projects"
+              to="showcase"
               className="sidebar-item"
               smooth={true}
               duration={1000}
               spy={true}
-              offset={-80}
               activeClass="sidebar-item active">
-              Projects
+              Showcase
             </LinkScroll>
           </li>
           <li className="sidebar-link">
@@ -71,7 +70,6 @@ function SidebarProto(props) {
               smooth={true}
               duration={1000}
               spy={true}
-              offset={-80}
               activeClass="sidebar-item active">
               Contact
             </LinkScroll>

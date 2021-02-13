@@ -1,0 +1,33 @@
+.showcase-container {
+  height: 100vh;
+  background-color: var(--bg);
+  position: relative;
+}
+
+#showcase-subheading {
+  font-size: 2rem;
+  color: var(--yellow);
+}
+
+#showcase-button {
+  font-size: 1.5rem;
+  padding: 20px;
+  border-radius: 20px;
+  width: 16vw;
+  background: none;
+  border: 5px solid #fed095;
+  color: #fed095;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  outline: none;
+}
+
+#showcase-button:hover {
+  background: #fed095;
+  color: #181818;
+}
+
+a {
+  color: var(--yellow);
+  text-decoration: none;
+}
