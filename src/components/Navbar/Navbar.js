@@ -1,5 +1,4 @@
 import React from "react";
-import "./Navbar.css";
 import { Link as LinkScroll } from "react-scroll";
 import { FaBars } from "react-icons/fa";
 

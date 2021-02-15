@@ -7,13 +7,13 @@
 .contact-content {
   color: var(--light-gray);
   position: absolute;
-  top: 30%;
+  top: 45%;
   left: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  transform: translate(-50%, -30%);
+  transform: translate(-50%, -45%);
 }
 
 .contact-item {
@@ -26,16 +26,17 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 150px;
+  width: 200px;
 }
 
 .social-media-icons {
   fill: var(--light-gray);
   height: 50px;
   width: 50px;
+  transition: all 0.5s ease;
 }
 
-.social-media.icons:hover {
+.social-media-icons:hover {
   fill: var(--yellow);
 }
 
@@ -48,7 +49,7 @@
   align-items: center;
   position: absolute;
   text-align: center;
-  background-color: var(--dark-accent);
+  background-color: var(--bg);
   bottom: 0;
   color: var(--light-gray);
 }

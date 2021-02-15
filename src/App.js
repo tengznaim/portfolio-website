@@ -23,7 +23,7 @@ function App() {
       <Logo />
       {/* <Navbar handleClick={handleClick} /> */}
       <Hero />
-      <SidebarProto isOpen={isOpen} handleClick={handleClick} />
+      {/* <SidebarProto isOpen={isOpen} handleClick={handleClick} /> */}
       <About />
       <Skills />
       <Showcase />

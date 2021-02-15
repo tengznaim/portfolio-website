@@ -2,6 +2,7 @@ import React from "react";
 import "./Contact.css";
 import { ReactComponent as GithubSVG } from "../../assets/social-media/github-logo.svg";
 import { ReactComponent as InstagramSVG } from "../../assets/social-media/instagram.svg";
+import { ReactComponent as LinkedInSVG } from "../../assets/social-media/linkedin.svg";
 
 function Contact() {
   return (
@@ -23,8 +24,15 @@ function Contact() {
           You can also find me on:
         </p>
         <div className="icon-container">
-          <GithubSVG className="social-media-icons" />
-          <InstagramSVG className="social-media-icons" />
+          <a href="https://github.com/tengznaim" target="_blank">
+            <GithubSVG className="social-media-icons" />
+          </a>
+          <a href="https://instagram.com/tengkunaim_" target="_blank">
+            <InstagramSVG className="social-media-icons" />
+          </a>
+          <a href="https://linkedin.com/in/tengku-naim" target="_blank">
+            <LinkedInSVG className="social-media-icons" />
+          </a>
         </div>
       </div>
       <footer className="footer">

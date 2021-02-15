@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { ReactComponent as LogoSVG } from "../../assets/Personal Logo.svg";
-import { Link } from "react-router-dom";
+import { Link as LinkScroll } from "react-scroll";
 import "./Logo.css";
 
 function Logo() {
@@ -8,7 +8,6 @@ function Logo() {
   const [scrollPos, setScrollPos] = useState(0);
 
   useEffect(() => {
-    console.log(document);
     window.addEventListener("scroll", handleScroll);
 
     function handleScroll() {
@@ -31,6 +30,65 @@ function Logo() {
     <header
       className={logoVisible ? "logo-container" : "logo-container hidden"}>
       <LogoSVG className="logo-item"></LogoSVG>
+      <nav className="navbar">
+        <ul className="nav-list">
+          <li className="nav-item">
+            <LinkScroll
+              to="home"
+              smooth={true}
+              duration={1000}
+              spy={true}
+              activeClass="nav-link active"
+              className="nav-link">
+              Home
+            </LinkScroll>
+          </li>
+          <li className="nav-item">
+            <LinkScroll
+              to="about"
+              smooth={true}
+              duration={1000}
+              spy={true}
+              activeClass="nav-link active"
+              className="nav-link">
+              About
+            </LinkScroll>
+          </li>
+          <li className="nav-item">
+            <LinkScroll
+              to="skills"
+              smooth={true}
+              duration={1000}
+              spy={true}
+              activeClass="nav-link active"
+              className="nav-link">
+              Skills
+            </LinkScroll>
+          </li>
+          <li className="nav-item">
+            <LinkScroll
+              to="showcase"
+              smooth={true}
+              duration={1000}
+              spy={true}
+              activeClass="nav-link active"
+              className="nav-link">
+              Showcase
+            </LinkScroll>
+          </li>
+          <li className="nav-item">
+            <LinkScroll
+              to="contact"
+              smooth={true}
+              duration={1000}
+              spy={true}
+              activeClass="nav-link active"
+              className="nav-link">
+              Contact
+            </LinkScroll>
+          </li>
+        </ul>
+      </nav>
     </header>
   );
 }

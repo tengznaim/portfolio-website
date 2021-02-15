@@ -22,8 +22,8 @@ function Showcase() {
           </a>
           , my team developed EcoNet, a web application aimed to connect users
           with their nearby recycling centers in an effort to encourage
-          recycling. We were successfully chosen as finalists over 60+ teams and
-          ranked 3rd among 5 global finalists 🏆
+          recycling. We were successfully chosen as finalists among 60+ teams
+          and ranked 3rd out of 5 global finalists 🏆
         </p>
         <p className="about-item" id="about-paragraph">
           Built With: <br></br>React JS | Google Maps API | Lack of Sleep

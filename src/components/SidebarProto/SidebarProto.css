@@ -28,7 +28,7 @@
   right: 0;
   transform: translate(0, -50%);
   background-color: var(--dark-accent);
-  height: 60%;
+  height: 450px;
   padding: 20px;
   border-radius: 50px 0px 0px 50px;
   transition: all 0.5s ease;
@@ -81,13 +81,13 @@
 }
 
 .sidebar-item:hover {
-  font-size: 3.5rem;
+  font-size: 3.2rem;
   color: #f5f7fb;
 }
 
 .sidebar-item.active {
   cursor: pointer;
-  font-size: 3.5rem;
+  font-size: 3.2rem;
   color: #f5f7fb;
   border-bottom: 4px solid #f76d6b;
 }

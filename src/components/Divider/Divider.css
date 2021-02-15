@@ -1,6 +1,6 @@
 .line {
   position: absolute;
-  width: 10px;
+  width: 5px;
   top: 0;
   left: 75%;
   transform: translate(-50%);
@@ -11,8 +11,8 @@
 .line::after {
   content: "";
   position: absolute;
-  height: 40px;
-  width: 40px;
+  height: 20px;
+  width: 20px;
   border-radius: 50%;
   top: 50%;
   left: 50%;

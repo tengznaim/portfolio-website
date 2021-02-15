@@ -12,16 +12,17 @@
 - Hero Page
 - Logo Bar Implementation (with hide on scroll)
   - Due for slight refactoring to enable it is a navbar when in mobile view
-- Sidebar Implementation (with React Scroll hooked up)
+- ~~Sidebar Implementation (with React Scroll hooked up)~~ (15/2/2021) - Updated to a logo/nav combo for a more practical and scalable design.
 - About Page
+- Skills Page
+- Showcase Page
+- Contact Page
   \*All completed pages are currently optimised for **web only** and are due for refactor for responsive design.
 
 ## To-Do
 
-- [x] Skills Page
-- [x] Projects Page
-- [ ] Contact Page
 - [ ] Design refactor for mobile responsive design
+- [ ] Add simple animations (experiment with animation.css and AOS)
 - [ ] Refactor content containers into a component?
 
 ## 🎨 Colour Scheme

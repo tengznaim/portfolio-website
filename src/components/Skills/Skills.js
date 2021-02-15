@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Divider from "../Divider/Divider";
-import { BsFillCaretRightFill } from "react-icons/bs";
+import { MdKeyboardArrowRight } from "react-icons/md";
 import "./Skills.css";
 
 function Skills() {
@@ -23,7 +23,7 @@ function Skills() {
           &lt;Skills&gt;
         </h1>
         <p className="about-item" id="about-paragraph">
-          Over only a few years of exposure, I've already tinkered with multiple
+          Over only a few years of exposure, I've tinkered with multiple
           languages, technologies and design tools be it for assignments,
           hackathons or just a matter of self-interest. With my craving for
           learning and passion, I hope to see these lists expand as I grow as a
@@ -56,8 +56,8 @@ function Skills() {
         </div>
         <div className="about-item data-container">
           {data[select].map((item, index) => (
-            <p key={index} class="data-item">
-              <BsFillCaretRightFill />
+            <p key={index} className="data-item">
+              <MdKeyboardArrowRight />
               {item}
             </p>
           ))}
