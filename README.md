@@ -17,19 +17,19 @@
 - Skills Page
 - Showcase Page
 - Contact Page
-  \*All completed pages are currently optimised for **web only** and are due for refactor for responsive design.
 
 ## To-Do
 
-- [ ] Design refactor for mobile responsive design
-- [ ] Add simple animations (experiment with animate.css and AOS)
+- [x] Design refactor for mobile responsive design
+- [x] Add simple animations (experiment with animate.css and AOS)
   - https://animate.style/ (Future note: for React projects, this requires importing animate.css in app.js)
-  - https://michalsnik.github.io/aos/
-- [ ] Refactor content containers into a component?
+  - https://michalsnik.github.io/aos/ (Init and import in app.js, issues with divs that have a transform property)
+- ~~[ ] Refactor content containers into a component?~~ Unnecessary as of now as components all have different styles.
+- [ ] Further optimise responsiveness for smaller displays
 
 ## 🎨 Colour Scheme
 
-\*Side Note: Apologies in advanced if there are specific names for these colours 🙊
+\*Side Note: Apologies in advanced if there are specific names for these colours heh
 
 | Color              | Hex                                                                |
 | ------------------ | ------------------------------------------------------------------ |
