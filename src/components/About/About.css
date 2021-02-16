@@ -50,11 +50,32 @@
   font-size: 8rem;
 }
 
-#about-name {
-  color: #fed095;
-  font-size: 4rem;
-}
-
 #about-highlighted {
   color: #fed095;
+}
+
+@media screen and (max-width: 768px) {
+  .about-content-container {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 80vw;
+  }
+
+  #about-tag {
+    font-size: 3rem;
+  }
+
+  #about-greeting {
+    font-size: 4rem;
+  }
+
+  #about-paragraph {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  #contact-button {
+    font-size: 1.5rem;
+  }
 }

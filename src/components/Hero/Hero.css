@@ -15,18 +15,12 @@
 }
 
 .home-greeting {
-  font-size: 22rem;
+  font-size: 22vw;
   color: var(--dark-accent);
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-@media screen and (max-width: 968px) {
-  .home-greeting {
-    font-size: 18rem;
-  }
 }
 
 .home-content {
@@ -75,27 +69,18 @@
 }
 
 @media screen and (max-width: 768px) {
-  #home-title {
-    font-size: 1.5rem;
-  }
-
   #home-name {
     font-size: 3rem;
     color: var(--yellow);
   }
 
-  #home-text {
+  #home-first-line {
     font-size: 1.5rem;
   }
-
-  #home-btn {
-    background: none;
-    color: var(--yellow);
+  #home-second-line {
+    font-size: 3rem;
+  }
+  #home-third-line {
     font-size: 1.5rem;
-    padding: 20px;
-    border: 2px solid var(--yellow);
-    border-radius: 20px;
-    cursor: pointer;
-    transition: all 0.5s ease;
   }
 }

@@ -80,3 +80,25 @@
   background: var(--yellow);
   color: var(--dark-accent);
 }
+
+@media screen and (max-width: 768px) {
+  .contact-content {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 80vw;
+  }
+
+  #contact-tag {
+    font-size: 3rem;
+  }
+
+  #contact-text {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  #email-button {
+    font-size: 1.5rem;
+  }
+}
