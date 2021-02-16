@@ -5,6 +5,8 @@
 - React JS
 - React Scroll
 - React Icons
+- animate.css
+- Animate on Scroll (AOS)
 - **Planning** to deploy to Firebase
 
 ## What is Currently Done?
