@@ -22,7 +22,9 @@
 ## To-Do
 
 - [ ] Design refactor for mobile responsive design
-- [ ] Add simple animations (experiment with animation.css and AOS)
+- [ ] Add simple animations (experiment with animate.css and AOS)
+  - https://animate.style/ (Future note: for React projects, this requires importing animate.css in app.js)
+  - https://michalsnik.github.io/aos/
 - [ ] Refactor content containers into a component?
 
 ## 🎨 Colour Scheme

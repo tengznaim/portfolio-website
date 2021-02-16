@@ -18,18 +18,18 @@ function Skills() {
   return (
     <div className="skills-container" id="skills">
       <Divider />
-      <div className="content-container">
-        <h1 className="about-item" id="about-tag">
+      <div className="skills-content-container">
+        <h1 className="skills-item" id="skills-tag">
           &lt;Skills&gt;
         </h1>
-        <p className="about-item" id="about-paragraph">
+        <p className="skills-item" id="skills-paragraph">
           Over only a few years of exposure, I've tinkered with multiple
           languages, technologies and design tools be it for assignments,
           hackathons or just a matter of self-interest. With my craving for
           learning and passion, I hope to see these lists expand as I grow as a
           developer!
         </p>
-        <div className="about-item selector-container">
+        <div className="skills-item selector-container">
           <h2
             className={
               select === "Languages" ? "selector-item active" : "selector-item"
@@ -54,7 +54,7 @@ function Skills() {
             Design
           </h2>
         </div>
-        <div className="about-item data-container">
+        <div className="skills-item data-container">
           {data[select].map((item, index) => (
             <p key={index} className="data-item">
               <MdKeyboardArrowRight />

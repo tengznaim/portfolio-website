@@ -14,6 +14,7 @@
   align-items: center;
   justify-content: center;
   transform: translate(-50%, -45%);
+  text-align: center;
 }
 
 .contact-item {

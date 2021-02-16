@@ -1,5 +1,4 @@
 import React from "react";
-import "./SidebarProto.css";
 import { Link as LinkScroll } from "react-scroll";
 import { FaTimes, FaBars } from "react-icons/fa";
 

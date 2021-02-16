@@ -6,14 +6,14 @@ function Showcase() {
   return (
     <div className="showcase-container" id="showcase">
       <Divider />
-      <div className="content-container">
-        <h1 className="about-item" id="about-tag">
+      <div className="showcase-content-container">
+        <h1 className="showcase-item" id="showcase-tag">
           &lt;Showcase&gt;
         </h1>
-        <h2 className="about-item" id="showcase-subheading">
+        <h2 className="showcase-item" id="showcase-subheading">
           EcoNet : A Global Finalist at UniHack 2020
         </h2>
-        <p className="about-item" id="about-paragraph">
+        <p className="showcase-item" id="showcase-paragraph">
           I love hackathons as I get to explore a lot of new things, come up
           with solutions to real life problems and develop prototypes in a short
           amount of time. For{" "}
@@ -25,11 +25,11 @@ function Showcase() {
           recycling. We were successfully chosen as finalists among 60+ teams
           and ranked 3rd out of 5 global finalists 🏆
         </p>
-        <p className="about-item" id="about-paragraph">
+        <p className="showcase-item" id="showcase-paragraph">
           Built With: <br></br>React JS | Google Maps API | Lack of Sleep
         </p>
         <a href="https://github.com/tengznaim/EcoNet" target="_blank">
-          <button className="about-item" id="showcase-button">
+          <button className="showcase-item" id="showcase-button">
             View this Project on GitHub
           </button>
         </a>

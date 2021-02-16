@@ -4,6 +4,30 @@
   position: relative;
 }
 
+.showcase-content-container {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-10%, -50%);
+  width: 60vw;
+  color: var(--light-gray);
+}
+
+.showcase-item {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#showcase-paragraph {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+#showcase-tag {
+  color: #f76d6b;
+  font-size: 4rem;
+}
+
 #showcase-subheading {
   font-size: 2rem;
   color: var(--yellow);
@@ -27,7 +51,7 @@
   color: #181818;
 }
 
-a {
+#showcase-paragraph a {
   color: var(--yellow);
   text-decoration: none;
 }

@@ -7,7 +7,7 @@ function About() {
   return (
     <div className="about-container" id="about">
       <Divider />
-      <div className="content-container">
+      <div className="about-content-container">
         <h1 className="about-item" id="about-tag">
           &lt;About&gt;
         </h1>

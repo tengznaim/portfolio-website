@@ -1,29 +1,32 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import Logo from "./components/Logo/Logo";
-import Divider from "./components/Divider/Divider";
 import Sidebar from "./components/Sidebar/Sidebar";
-import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
-import SidebarProto from "./components/SidebarProto/SidebarProto";
 import Skills from "./components/Skills/Skills";
 import Showcase from "./components/Showcase/Showcase";
 import Contact from "./components/Contact/Contact";
+import "animate.css"; //Imports animate.css
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
-  const [isOpen, setOpen] = useState(true);
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
+  const [isOpen, setOpen] = useState(false);
   function handleClick() {
     setOpen(!isOpen);
     console.log(isOpen);
   }
   return (
     <div>
-      {/* <Sidebar isOpen={isOpen} handleClick={handleClick} /> */}
-      <Logo />
-      {/* <Navbar handleClick={handleClick} /> */}
+      <Sidebar isOpen={isOpen} handleClick={handleClick} />
+      <Logo isOpen={isOpen} handleClick={handleClick} />
       <Hero />
-      {/* <SidebarProto isOpen={isOpen} handleClick={handleClick} /> */}
       <About />
       <Skills />
       <Showcase />

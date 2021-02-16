@@ -2,7 +2,7 @@
   position: absolute;
   width: 5px;
   top: 0;
-  left: 75%;
+  left: 80%;
   transform: translate(-50%);
   height: 100vh;
   background: var(--red-pink);
@@ -18,4 +18,10 @@
   left: 50%;
   transform: translate(-50%, -50%);
   background: var(--red-pink);
+}
+
+@media screen and (max-width: 768px) {
+  .line {
+    display: none;
+  }
 }

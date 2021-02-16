@@ -4,6 +4,15 @@
   background-color: var(--bg);
 }
 
+.skills-content-container {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-10%, -50%);
+  width: 60vw;
+  color: var(--light-gray);
+}
+
 .selector-container {
   display: flex;
   width: 40vw;
@@ -36,4 +45,19 @@
   flex-direction: column;
   height: 15vh;
   flex-wrap: wrap;
+}
+
+.skills-item {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#skills-paragraph {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+#skills-tag {
+  color: #f76d6b;
+  font-size: 4rem;
 }

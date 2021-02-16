@@ -4,7 +4,7 @@
   background-color: var(--bg);
 }
 
-.content-container {
+.about-content-container {
   position: absolute;
   top: 50%;
   left: 10%;
@@ -16,7 +16,6 @@
 .about-item {
   margin-top: 20px;
   margin-bottom: 20px;
-  user-select: none; /*Prevents Selecting*/
 }
 
 #about-paragraph {

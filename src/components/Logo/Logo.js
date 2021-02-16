@@ -2,8 +2,9 @@ import React, { useEffect, useState } from "react";
 import { ReactComponent as LogoSVG } from "../../assets/Personal Logo.svg";
 import { Link as LinkScroll } from "react-scroll";
 import "./Logo.css";
+import { FaBars } from "react-icons/fa";
 
-function Logo() {
+function Logo(props) {
   const [logoVisible, setLogoVisible] = useState(true);
   const [scrollPos, setScrollPos] = useState(0);
 
@@ -30,6 +31,9 @@ function Logo() {
     <header
       className={logoVisible ? "logo-container" : "logo-container hidden"}>
       <LogoSVG className="logo-item"></LogoSVG>
+      <button className="mobile-nav" onClick={props.handleClick}>
+        <FaBars />
+      </button>
       <nav className="navbar">
         <ul className="nav-list">
           <li className="nav-item">
