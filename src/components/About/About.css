@@ -50,10 +50,6 @@
   font-size: 8rem;
 }
 
-#about-highlighted {
-  color: #fed095;
-}
-
 @media screen and (max-width: 768px) {
   .about-content-container {
     left: 50%;

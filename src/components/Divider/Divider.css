@@ -6,6 +6,7 @@
   transform: translate(-50%);
   height: 100vh;
   background: var(--red-pink);
+  box-shadow: 10px 0px 10px var(--dark-accent);
 }
 
 .line::after {

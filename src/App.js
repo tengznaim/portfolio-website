@@ -13,14 +13,17 @@ import "aos/dist/aos.css";
 
 function App() {
   useEffect(() => {
-    AOS.init();
+    AOS.init({
+      once: true,
+      duration: 1250,
+      delay: 500,
+    });
     AOS.refresh();
   }, []);
 
   const [isOpen, setOpen] = useState(false);
   function handleClick() {
     setOpen(!isOpen);
-    console.log(isOpen);
   }
   return (
     <div>

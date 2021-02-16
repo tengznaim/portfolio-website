@@ -8,22 +8,40 @@ function Contact() {
   return (
     <div className="contact-container" id="contact">
       <div className="contact-content">
-        <h1 className="contact-item" id="contact-tag">
+        <h1
+          className="contact-item"
+          id="contact-tag"
+          data-aos="fade"
+          data-aos-anchor="#contact">
           &lt;Contact&gt;
         </h1>
-        <p className="contact-item" id="contact-text">
+        <p
+          className="contact-item"
+          id="contact-text"
+          data-aos="fade"
+          data-aos-anchor="#contact">
           Want to know more about me, interested to work with me or just want to
           say hi?
         </p>
-        <a href="mailto:naimtmas@gmail.com">
+        <a
+          href="mailto:naimtmas@gmail.com"
+          data-aos="fade"
+          data-aos-anchor="#contact">
           <button className="contact-item" id="email-button">
             Drop me a message!
           </button>
         </a>
-        <p className="contact-item" id="contact-text">
+        <p
+          className="contact-item"
+          id="contact-text"
+          data-aos="fade"
+          data-aos-anchor="#contact">
           You can also find me on:
         </p>
-        <div className="icon-container">
+        <div
+          className="icon-container"
+          data-aos="fade"
+          data-aos-anchor="#contact">
           <a href="https://github.com/tengznaim" target="_blank">
             <GithubSVG className="social-media-icons" />
           </a>

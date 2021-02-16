@@ -61,16 +61,6 @@
   margin: 20px;
 }
 
-@media screen and (max-width: 768px) {
-  .navbar {
-    display: none;
-  }
-  .mobile-nav {
-    display: flex;
-    cursor: pointer;
-  }
-}
-
 .nav-link {
   font-size: 1.5rem;
   cursor: pointer;
@@ -86,4 +76,14 @@
 .nav-link.active {
   color: var(--light-gray);
   border-bottom: 4px solid var(--red-pink);
+}
+
+@media screen and (max-width: 992px) {
+  .navbar {
+    display: none;
+  }
+  .mobile-nav {
+    display: flex;
+    cursor: pointer;
+  }
 }

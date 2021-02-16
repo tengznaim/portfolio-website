@@ -29,19 +29,27 @@ function Skills() {
     <div className="skills-container" id="skills">
       <Divider />
       <div className="skills-content-container">
-        <div className="skills-description">
+        <div
+          className="skills-description"
+          data-aos="fade"
+          data-aos-anchor="#skills">
           <h1 className="skills-item" id="skills-tag">
             &lt;Skills&gt;
           </h1>
           <p className="skills-item" id="skills-paragraph">
             Over only a few years of exposure, I've tinkered with multiple
-            languages, technologies and design tools be it for assignments,
+            <span id="highlighted"> languages</span>,{" "}
+            <span id="highlighted">technologies</span> and{" "}
+            <span id="highlighted">design</span> tools be it for assignments,
             hackathons or just a matter of self-interest. With my craving for
             learning and passion, I hope to see these lists expand as I grow as
             a developer!
           </p>
         </div>
-        <div className="skills-window">
+        <div
+          className="skills-window"
+          data-aos="fade"
+          data-aos-anchor="#skills">
           <button
             className={select ? "back-button active" : "back-button"}
             onClick={handleClick}>
@@ -77,7 +85,9 @@ function Skills() {
           ) : (
             <div className="window-content">
               {data[select].map((data, index) => (
-                <p className="data-item" key={index}>
+                <p
+                  className="data-item animate__animated animate__fadeIn"
+                  key={index}>
                   <MdKeyboardArrowRight />
                   {data}
                 </p>
