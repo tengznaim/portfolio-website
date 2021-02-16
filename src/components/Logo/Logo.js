@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { ReactComponent as LogoSVG } from "../../assets/Personal Logo.svg";
+import { ReactComponent as LogoAlt } from "../../assets/Personal Logo No Text.svg";
 import { Link as LinkScroll } from "react-scroll";
 import "./Logo.css";
 import { FaBars } from "react-icons/fa";
@@ -30,7 +31,7 @@ function Logo(props) {
   return (
     <header
       className={logoVisible ? "logo-container" : "logo-container hidden"}>
-      <LogoSVG className="logo-item"></LogoSVG>
+      <LogoAlt className="logo-item" />
       <button className="mobile-nav" onClick={props.handleClick}>
         <FaBars />
       </button>

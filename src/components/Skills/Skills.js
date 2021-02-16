@@ -55,10 +55,10 @@ function Skills() {
             onClick={handleClick}>
             <MdKeyboardArrowLeft />
           </button>
-          <div className="window-button">
-            <div id="gray-button"></div>
-            <div id="yellow-button"></div>
-            <div id="red-button"></div>
+          <div className="window-buttons">
+            <div className="display-button" id="gray-button"></div>
+            <div className="display-button" id="yellow-button"></div>
+            <div className="display-button" id="red-button"></div>
           </div>
           {!select ? (
             <div className="selector-buttons">

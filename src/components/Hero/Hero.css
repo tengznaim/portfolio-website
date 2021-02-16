@@ -6,7 +6,7 @@
 
 .home-content-container {
   color: var(--red-pink);
-  width: 60vw;
+  width: 80vw;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -15,7 +15,7 @@
 }
 
 .home-greeting {
-  font-size: 22vw;
+  font-size: 22rem;
   color: var(--dark-accent);
   position: absolute;
   top: 50%;
@@ -45,13 +45,26 @@
   justify-content: center;
   font-size: 2rem;
   transition: all 0.5s ease;
-  animation: float 2s ease-in-out infinite;
+  animation: floatButton 2s ease-in-out infinite;
+}
+
+@keyframes floatButton {
+  0% {
+    transform: translate(-50%, -20%);
+  }
+  50% {
+    transform: translate(-50%, -10%);
+  }
+  100% {
+    transform: translate(-50%, -20%);
+  }
 }
 
 .home-continue-button:hover {
   background: var(--red-pink);
   color: var(--bg);
 }
+
 #home-first-line {
   font-size: 2rem;
 }
@@ -69,19 +82,39 @@
   color: var(--yellow);
 }
 
+#greeting-small-alternate {
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  .home-greeting {
+    font-size: 30vw;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .home-greeting {
+    display: none;
+  }
+  #greeting-small-alternate {
+    display: inline;
+  }
+}
+
 @media screen and (max-width: 768px) {
-  #home-name {
-    font-size: 3rem;
-    color: var(--yellow);
+  .home-continue-button {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
   }
 
   #home-first-line {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   #home-second-line {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   #home-third-line {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }

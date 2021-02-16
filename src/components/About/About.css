@@ -47,7 +47,7 @@
 
 #about-greeting {
   color: #fed095;
-  font-size: 8rem;
+  font-size: 6rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -59,11 +59,11 @@
   }
 
   #about-tag {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   #about-greeting {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 
   #about-paragraph {
@@ -72,6 +72,8 @@
   }
 
   #contact-button {
-    font-size: 1.5rem;
+    font-size: 1rem;
+    border-radius: 15px;
+    padding: 15px;
   }
 }

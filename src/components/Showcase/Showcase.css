@@ -64,7 +64,11 @@
   }
 
   #showcase-tag {
-    font-size: 3rem;
+    font-size: 2rem;
+  }
+
+  #showcase-subheading {
+    font-size: 1rem;
   }
 
   #showcase-paragraph {
@@ -73,6 +77,8 @@
   }
 
   #showcase-button {
-    font-size: 1.5rem;
+    font-size: 1rem;
+    padding: 15px;
+    border-radius: 15px;
   }
 }

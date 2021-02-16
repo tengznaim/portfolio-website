@@ -30,7 +30,19 @@
   animation: float 2s ease-in-out infinite;
 }
 
-.window-button {
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.window-buttons {
   display: flex;
   justify-content: space-between;
   position: absolute;
@@ -104,24 +116,21 @@ button.selector-item:hover {
   color: #181818;
 }
 
-#red-button {
+.display-button {
   height: 15px;
   width: 15px;
   border-radius: 50%;
+}
+
+#red-button {
   background-color: var(--red-pink);
 }
 
 #yellow-button {
-  height: 15px;
-  width: 15px;
-  border-radius: 50%;
   background-color: var(--yellow);
 }
 
 #gray-button {
-  height: 15px;
-  width: 15px;
-  border-radius: 50%;
   background-color: var(--light-gray);
 }
 
@@ -166,30 +175,27 @@ button.selector-item:hover {
   }
 
   #skills-tag {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   #skills-paragraph {
     font-size: 1rem;
     line-height: 1.5rem;
   }
-  /* 
-  .selector-container {
-    display: flex;
-    align-items: center;
-    width: 80vw;
-    justify-content: center;
+
+  .data-item {
+    font-size: 1rem;
+  }
+
+  button.selector-item {
+    font-size: 1rem;
   }
 
   .selector-item {
-    color: #3b3a3a;
-    font-size: 1.5rem;
-    transition: all 0.5s ease;
-    cursor: pointer;
+    margin: 5px;
   }
 
-  .data-container {
-    display: flex;
-    align-items: center;
-  } */
+  p.selector-item {
+    font-size: 1rem;
+  }
 }

@@ -8,7 +8,9 @@ function Hero() {
     <div className="home-container" id="home">
       <h1 className="home-greeting animate__animated animate__fadeIn">Hello</h1>
       <div className="home-content-container animate__animated animate__fadeIn animate__delay-1s">
-        <p id="home-first-line">I'm</p>
+        <p id="home-first-line">
+          <span id="greeting-small-alternate">Hi! </span>I'm
+        </p>
         <h1 id="home-second-line">Tengku Naim</h1>
         <p id="home-third-line">
           a <span id="home-highlighted">computer science</span> sophomore at

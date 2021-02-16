@@ -26,9 +26,8 @@ function Showcase() {
           id="showcase-paragraph"
           data-aos="fade"
           data-aos-anchor="#showcase">
-          I love hackathons as I get to explore a lot of new things, come up
-          with solutions to real life problems and develop prototypes in a short
-          amount of time. For{" "}
+          I absolutely love hackathons and have participated in a few of them
+          over the years. For{" "}
           <a href="https://unihack.eu/" target="_blank">
             UniHack 2020
           </a>
