@@ -1,37 +1,23 @@
 # Portfolio Website (V1 2021)
 
-## What is it Currently Built With?
+This is the now offline, first version of my portfolio website which I used from 2021 to early 2022. This was built using React JS and deployed to Firebase.
+
+<img src="/screenshots/Hero.jpg">
+<img src="/screenshots/About.jpg">
+<img src="/screenshots/Skills.jpg">
+<img src="/screenshots/Showcase.jpg">
+<img src="/screenshots/Contact.jpg">
+
+## Built With
 
 - React JS
 - React Scroll
 - React Icons
 - animate.css
 - Animate on Scroll (AOS)
-- **Planning** to deploy to Firebase
-
-## What is Currently Done?
-
-- Hero Page
-- Logo Bar Implementation (with hide on scroll)
-  - Due for slight refactoring to enable it is a navbar when in mobile view
-- ~~Sidebar Implementation (with React Scroll hooked up)~~ (15/2/2021) - Updated to a logo/nav combo for a more practical and scalable design.
-- About Page
-- Skills Page
-- Showcase Page
-- Contact Page
-
-## To-Do
-
-- [x] Design refactor for mobile responsive design
-- [x] Add simple animations (experiment with animate.css and AOS)
-  - https://animate.style/ (Future note: for React projects, this requires importing animate.css in app.js)
-  - https://michalsnik.github.io/aos/ (Init and import in app.js, issues with divs that have a transform property)
-- ~~[ ] Refactor content containers into a component?~~ Unnecessary as of now as components all have different styles.
-- [ ] Further optimise responsiveness for smaller displays
+- Deployed to Firebase
 
 ## 🎨 Colour Scheme
-
-\*Side Note: Apologies in advanced if there are specific names for these colours heh
 
 | Color              | Hex                                                                |
 | ------------------ | ------------------------------------------------------------------ |
